@@ -1,0 +1,46 @@
+/* Reset pois por padrão todo navegador acaba adicionando margin, padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* sempre que definir um tamanho ele conta isso borda a borda*/
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.cardright > img {
+  width: 250px;
+  height: 250px;
+}
+
+.card {
+    width: 720px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+}
+
+.cardleft, .cardright {
+    border: 1px solid blue;
+
+}
+
+.cardleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.cardleft > span {
+    font-weight: 400;
+}
+
+.cardleft > h1 {
+    margin: 15px;
+    font-size: 25px;
+
+}
+
+.cardleft > p {
+    color: rgb(70, 70, 70);
+}
+
